@@ -11,7 +11,7 @@ const Calculator = () => {
     if (value === '=') {
       // Calculate result
       calculateResult();
-    } else if (value === 'C') {
+    } else if (value === 'AC') {
       // Clear display
       setDisplay('0');
     } else if (value === '%') {
