@@ -1,0 +1,81 @@
+.theme1 {
+    --base-color: rgb(57 37 10);
+    --text-color: white;
+    --accent-button-color: ;
+    --secondary-button-color: #ff9f0c;
+    --button-color: rgb(156 146 134); /* 40% lighter than base */
+    --screen-color: rgb(57 37 10);
+  }
+  
+  .theme2 {
+    --base-color: rgba(0, 0, 0, 0.5);
+    --text-color: white;
+    --accent-button-color: ;
+    --secondary-button-color: #cc0000;
+    --button-color: rgb(178 178 178);
+    --screen-color : rgba(0, 0, 0, 0.0);
+  }
+  
+  .calculator {
+    width: 400px;
+    height: 540px;
+    margin: 50px auto;
+    background-color: var(--base-color);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .display {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: var(--screen-color);
+    color: var(--text-color);
+    font-size: 70px;
+    box-sizing: border-box;
+    text-align: right;
+  }
+  
+  .equals{
+    grid-column: 3 / 5;
+  }
+  
+  .buttons {
+    display: grid;
+    width: 100%;
+    height: calc(100% - 110px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1px;
+    grid-gap: 2px;
+  }
+  
+  .button {
+    background-color: var( --button-color);
+    color: var(--text-color);
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--accent-button-color); /* Accent Button */
+  }
+  
+  .operator {
+    background-color: var(--secondary-button-color); /* Secondary Button */
+  }
+  
+  .theme-toggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--accent-button-color); /* Accent Button */
+    color: black;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
