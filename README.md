@@ -1,1 +1,4 @@
 # My-calculator
+
+
+The calculator is built using React for creating a dynamic user interface and managing state, along with CSS for styling. It features a functional component, Calculator, which utilizes React hooks such as useState to manage the display state and useContext to access the theme context. Event handling for button clicks is implemented through a handleClick function, which performs different operations based on the button clicked. The calculator component is styled using CSS, with CSS variables utilized for theme-specific colors. Additionally, a separate context and provider are used for managing the theme state, allowing users to toggle between different themes. Overall, the calculator application leverages React's component-based architecture and state management capabilities to create a responsive and theme-able calculator interface.
